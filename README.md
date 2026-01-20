@@ -54,3 +54,13 @@ npx prisma migrate dev --name init
 - Base directory: `Desafio05-Front`
 - Build command: `npm run build`
 - Publish directory: `dist`
+
+## URLs finais
+- Front (Netlify): `https://rid220903desafio05.netlify.app/`
+- API (Render): `https://rid220903-desafio05.onrender.com`
+
+## Checklist de entrega
+- Repositorio nomeado com o RID (RID220903_Desafio05).
+- API funcionando com Postgres (Neon) e rotas CRUD ativas.
+- Front integrado consumindo a API no Render.
+- Deploy do front no Netlify com rotas SPA funcionando.
