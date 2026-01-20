@@ -2,6 +2,9 @@
 
 Projeto de biblioteca com API em Node.js + Express + Prisma (Postgres) e front-end React.
 
+## Autor
+- Bruno mateus de OLiveira (RID 220903)
+
 ## Requisitos atendidos
 - CRUD completo de livros com as rotas: GET /livros, GET /livros/:id, POST /livros, PUT /livros/:id, DELETE /livros/:id.
 - Integracao do front-end com a API via `http://localhost:3000`.
