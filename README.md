@@ -33,3 +33,12 @@ Aplicacao: `http://localhost:5173`
 - paginas (int)
 - isbn (string, unico)
 - editora (string)
+
+## Deploy da API (Render + Neon)
+- No Neon, crie o banco Postgres e copie a `DATABASE_URL`.
+- No Render, crie um Web Service com:
+  - Root Directory: `backend`
+  - Build Command: `npm install && npx prisma generate`
+  - Start Command: `npm start`
+  - Env Vars: `DATABASE_URL` (do Neon)
+- No front, ajuste `BASE_URL` em `Desafio05-Front/src/api/LivrosService.js` para a URL do Render.
